@@ -8,7 +8,7 @@
   min-height: 500px;
 
   .hero {
-    max-width: 400px;
+    max-width: 350px;
     border-radius: 50%;
     transition: transform 0.3s ease;
   }
@@ -20,13 +20,13 @@
   span {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
 
     a {
       margin: 0;
 
       img {
-        width: 30px;
+        width: 28px;
       }
     }
   }
@@ -41,9 +41,9 @@
     color: var(--btn-text-color);
     border: none;
     border-radius: 20px;
-    width: 126px;
-    height: 50px;
-    font-size: 20px;
+    width: 120px;
+    height: 45px;
+    font-size: 1rem;
     font-weight: bold;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
@@ -65,8 +65,9 @@
 
 .colorMode {
   position: absolute;
-  right: 0;
-  width: 25px;
+  right: 10px;
+  top: 10px;
+  width: 22px;
 }
 
 .colorMode:hover {
@@ -74,13 +75,13 @@
 }
 
 .description {
-  max-width: 50ch;
+  max-width: 45ch;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 @keyframes pulse {
@@ -93,9 +94,36 @@
   }
 }
 
-@media (max-width: 800px) {
-  .hero:active {
-    animation: pulse 0.4s ease;
+@media (max-width: 480px) {
+  .container {
+    gap: 15px;
+  }
+
+  .hero {
+    max-width: 220px;
+  }
+
+  .info h1 {
+    font-size: 1.6rem;
+  }
+
+  .info h2 {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+    max-width: 50ch;
+  }
+
+  span img {
+    width: 22px;
+  }
+
+  button {
+    width: 95px;
+    height: 36px;
+    font-size: 0.85rem;
   }
 }
 
