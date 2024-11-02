@@ -1,12 +1,14 @@
-# Portfólio de Ivo Fernandes
+# Ivo Fernandes
 
-Portfólio pessoal, desenvolvido com React, Vite, JavaScript, HTML e CSS, apresenta alguns dos projetos que construí para demonstrar minhas habilidades em desenvolvimento web.
+Portfólio pessoal, onde apresento meus contatos, projetos e habilidades em desenvolvimento web.
+
+🖥 **Acesse o Portfólio Online**: [ivofernandes.netlify.app](https://ivofernandes.netlify.app/)
 
 ## Funcionalidades
 
-- Lista de projetos com links e descrições.
-- Design responsivo.
-- Navegação intuitiva.
+- **Contatos**: Links para redes sociais e formas de contato.
+- **Projetos**: Galeria de trabalhos com links e descrições.
+- **Skills**: Habilidades técnicas destacadas.
 
 ## Como Rodar Localmente
 
