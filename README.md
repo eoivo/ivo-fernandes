@@ -2,7 +2,7 @@
 
 Portfólio pessoal, onde apresento meus contatos, projetos e habilidades em desenvolvimento web.
 
-🖥 **Acesse o Portfólio Online**: [ivofernandes.netlify.app](https://ivofernandes.netlify.app/)
+🖥 **Acesse o Portfólio Online**: [Ivo Fernandes](https://ivofernandes.netlify.app/)
 
 ## Funcionalidades
 
