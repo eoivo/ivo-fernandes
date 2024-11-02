@@ -23,7 +23,7 @@ function Projects() {
         />
         <ProjectCard
           src={digitalStore}
-          link="https://github.com/eoivo/projeto-front-end"
+          link="https://github.com/eoivo/digital-store"
           h3="Digital Store"
           p="E-commerce"
         />
