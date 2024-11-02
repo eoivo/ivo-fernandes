@@ -2,7 +2,6 @@ import styles from "./ProjectsStyles.module.css";
 import logoCE from "../../assets/logo-ce.png";
 import reservation from "../../assets/fresh-burger.png";
 import digitalStore from "../../assets/digital-store.png";
-import inOrbit from "../../assets/in-orbit.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -27,12 +26,6 @@ function Projects() {
           link="https://github.com/eoivo/projeto-front-end"
           h3="Digital Store"
           p="E-commerce"
-        />
-        <ProjectCard
-          src={inOrbit}
-          link="https://github.com/eoivo/in.orbit-"
-          h3="InOrbit"
-          p="Goal Manager"
         />
       </div>
     </section>
