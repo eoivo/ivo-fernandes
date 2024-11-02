@@ -1,8 +1,24 @@
-# React + Vite
+# Portfólio de Ivo Fernandes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal, desenvolvido com React, Vite, JavaScript, HTML e CSS, apresenta alguns dos projetos que construí para demonstrar minhas habilidades em desenvolvimento web.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Lista de projetos com links e descrições.
+- Design responsivo.
+- Navegação intuitiva.
+
+## Como Rodar Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/eoivo/ivo-fernandes
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
