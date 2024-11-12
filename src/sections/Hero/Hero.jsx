@@ -57,7 +57,7 @@ function Hero() {
           aplicativos fáceis de usar e visualmente atraentes.
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">Currículo</button>
         </a>
       </div>
     </section>

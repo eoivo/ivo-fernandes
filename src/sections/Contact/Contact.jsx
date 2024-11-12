@@ -3,7 +3,7 @@ import styles from "./ContactStyles.module.css";
 function Contact() {
   return (
     <section id="contact" className={styles.container}>
-      <h1 className="sectionTitle">Contact</h1>
+      <h1 className="sectionTitle">Contato</h1>
       <form action="https://formspree.io/f/myzyedvp" method="post">
         <div className="formGroup">
           <label htmlFor="name" hidden>
@@ -13,7 +13,7 @@ function Contact() {
             type="text"
             name="name"
             id="name"
-            placeholder="Name"
+            placeholder="Nome"
             required
           />
         </div>
@@ -36,11 +36,11 @@ function Contact() {
           <textarea
             name="message"
             id="message"
-            placeholder="Message"
+            placeholder="Mensagem"
             required
           ></textarea>
         </div>
-        <input className="hover btn" type="submit" value="Submit" />
+        <input className="hover btn" type="submit" value="Enviar" />
       </form>
     </section>
   );
