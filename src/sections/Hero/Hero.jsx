@@ -8,7 +8,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import whatsappLight from "../../assets/whatsapp-light.svg";
 import whatsappDark from "../../assets/whatsapp-dark.svg";
-import CV from "../../assets/Ivo Martins Fernandes Dev.pdf.pdf";
+import CV from "../../assets/Ivo Martins Fernandes.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -42,7 +42,7 @@ function Hero() {
         </h1>
         <h2>Full Stack Web Developer</h2>
         <span>
-          <a href="https://wa.me/5511999999999" target="_blank">
+          <a href="https://wa.me/5585999100065" target="_blank">
             <img src={whatsappIcon} alt="WhatsApp icon" />
           </a>
           <a href="https://github.com/eoivo" target="_blank">
@@ -53,8 +53,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Sou um desenvolvedor Web Full Stack apaixonado por criar sites e
-          aplicativos fáceis de usar e visualmente atraentes.
+          Sou um Desenvolvedor Web Full Stack em constante evolução. Crio
+          interfaces modernas com React e soluções completas com Node.js, sempre
+          buscando unir performance, usabilidade e boas práticas.
         </p>
         <a href={CV} download>
           <button className="hover">Currículo</button>

@@ -1,5 +1,6 @@
 import styles from "./ProjectsStyles.module.css";
 import logoCE from "../../assets/logo-ce.png";
+import logoEmbala from "../../assets/logo-embala.png";
 import reservation from "../../assets/fresh-burger.png";
 import digitalStore from "../../assets/digital-store.png";
 import ProjectCard from "../../common/ProjectCard";
@@ -26,6 +27,12 @@ function Projects() {
           link="https://github.com/eoivo/digital-store"
           h3="Digital Store"
           p="E-commerce"
+        />
+        <ProjectCard
+          src={logoEmbala}
+          link="https://github.com/eoivo/embala-fest"
+          h3="Embala Fest"
+          p="Sistema de gestão para lojas de embalagens"
         />
       </div>
     </section>
